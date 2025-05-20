@@ -1,4 +1,5 @@
 # 💼 Personal Portfolio – Adrián Casado
+![Tests](https://github.com/AdrianCasadoAguilera/Portfolio/actions/workflows/test.yml/badge.svg?branch=preprod)
 
 Welcome! This is my personal portfolio, where I showcase some of my work and demonstrate how I build, organize, and maintain projects. You’ll get a sense of the technologies I use and my approach to development.
 

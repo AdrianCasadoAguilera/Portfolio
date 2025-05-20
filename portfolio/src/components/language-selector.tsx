@@ -22,6 +22,7 @@ export default function LanguageSelector() {
   useEffect(() => {
     document.documentElement.lang = i18n.language;
     setCurrentLang(i18n.language);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [i18n.language]);
 
   const languages: Record<"es" | "en" | "ca", string> = {
@@ -38,7 +39,7 @@ export default function LanguageSelector() {
         onClick={() => {
           setOpen(!isOpen);
         }}
-        className="w-fit px-3 py-1 border flex gap-2 items-center justify-center border-[#B2B2B2] hover:bg-gray-100 transition rounded-lg cursor-pointer"
+        className="w-fit px-3 py-1 border flex gap-2 items-center justify-center border-[#dadada] hover:bg-gray-100 transition rounded-lg cursor-pointer"
       >
         <div className="rounded-full w-5 h-5 relative overflow-hidden border border-[#B2B2B2]">
           <Image alt={currentLang} src={`/${currentLang}.png`} fill className="object-cover" />
@@ -46,7 +47,7 @@ export default function LanguageSelector() {
         {languages[currentLang as keyof typeof languages]}
       </div>
       {isOpen && (
-        <div className="absolute z-10 mt-2 w-32 bg-white border border-[#B2B2B2] rounded-lg shadow">
+        <div className="absolute z-10 mt-2 w-32 bg-white border border-[#dadada] rounded-lg shadow">
           {Object.entries(languages).map(([code, name]) => (
             <button
               key={code}

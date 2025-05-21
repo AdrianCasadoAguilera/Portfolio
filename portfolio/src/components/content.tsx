@@ -2,6 +2,7 @@ import Hero from "./hero";
 import Section from "./section";
 import { Train } from "lucide-react";
 import Working from "./working";
+import WhoAmI from "./whoami/who-am-i";
 
 export default function Content() {
   return (
@@ -19,7 +20,7 @@ export default function Content() {
           <div className="absolute -bottom-[3.25rem] lg:-bottom-[6.25rem] left-4 top-10 lg:top-[5rem] w-3 lg:w-4 bg-amber-400" />
 
           <Section title="who-am-i">
-            <Working />
+            <WhoAmI />
           </Section>
           <Section title="experience">
             <Working />

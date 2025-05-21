@@ -9,7 +9,7 @@ export default function Hero() {
   const sections = ["who-am-i", "experience", "projects", "skills"];
 
   return (
-    <section className="snap-start h-[calc(100svh-5rem)] px-7 max-w-3xl mx-auto pt-10 pb-10 lg:pt-20 flex flex-col gap-7">
+    <section className="snap-start h-[calc(100svh-5rem)] px-7 pt-10 pb-10 lg:pt-20 flex flex-col gap-7">
       <h1 className="font-semibold text-6xl">{t("hi")}</h1>
       <h2 className="text-base md:text-xl xl:text-3xl text-neutral-400">{t("welcome")}</h2>
       <p className="max-w-prose text-justify lg:text-lg">{t("presentation")}</p>

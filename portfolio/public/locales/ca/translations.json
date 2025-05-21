@@ -1,3 +1,11 @@
 {
-  "download-cv": "Descarregar CV"
+  "download-cv": "Descarregar CV",
+  "hi": "Hola!",
+  "welcome": "Benvingut/da al meu espai. Agafa el tren i descobreix-me.",
+  "presentation": "Soc Adrián, desenvolupador web i multiplataforma. Des de petit, m’ha agradat crear. I els trens. El meu avi em portava de petit a l’estació de Torredembarra a veure els trens. Aquesta web és un homenatge a ell i al nen que ha evolucionat fins arribar on és ara. ",
+  "scroll-down": "Scroll per continuar",
+  "who-am-i": "Qui sóc",
+  "experience": "Experiència",
+  "projects": "Projectes",
+  "skills": "Habilitats"
 }

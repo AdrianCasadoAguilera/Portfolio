@@ -1,3 +1,11 @@
 {
-  "download-cv": "Descargar CV"
+  "download-cv": "Descargar CV",
+  "hi": "Hola!",
+  "welcome": "Bienvenido/a a mi espacio. Coge el tren y descúbreme.",
+  "presentation": "Soy Adrián, desarrollador web y multiplataforma. Desde pequeño, me ha gustado crear. Y los trenes. Mi abuelo me llevaba de pequeño a la estación de Torredembarra a ver los trenes. Esta web es un homenaje a él y al niño que ha evolucionado hasta llegar aquí.",
+  "scroll-down": "Scroll para continuar",
+  "who-am-i": "Quién soy",
+  "experience": "Experiencia",
+  "projects": "Proyectos",
+  "skills": "Habilidades"
 }

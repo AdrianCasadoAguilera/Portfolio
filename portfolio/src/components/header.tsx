@@ -9,7 +9,7 @@ export default function Header() {
   const { t } = useTranslation();
 
   return (
-    <header className="fixed w-full h-20 flex shadow justify-between items-center px-10">
+    <header className="w-full min-h-20 flex shadow justify-between items-center px-10">
       <div className="flex items-end gap-1">
         <p className="text-2xl font-semibold">Adrián Casado</p>
         <p className="text-xs mb-1">Web & Mobile Developer</p>

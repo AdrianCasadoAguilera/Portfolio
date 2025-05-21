@@ -3,9 +3,10 @@ type ButtonProps = {
   text?: string;
   icon?: React.ReactNode;
   onClick: () => void;
+  mobileText?: string;
 };
 
-export default function Button({ children, text, icon, onClick }: ButtonProps) {
+export default function Button({ children, text, icon, onClick, mobileText }: ButtonProps) {
   return (
     <button
       onClick={onClick}
@@ -16,7 +17,8 @@ export default function Button({ children, text, icon, onClick }: ButtonProps) {
       ) : (
         <div className="flex gap-2 items-center">
           {icon}
-          <p>{text}</p>
+          <p className="hidden md:block">{text}</p>
+          <p className=" md:hidden">{mobileText}</p>
         </div>
       )}
     </button>

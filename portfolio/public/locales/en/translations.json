@@ -1,3 +1,13 @@
 {
-  "download-cv": "Download CV"
+  "download-cv": "Download CV",
+  "hi": "Hi!",
+  "welcome": "Welcome to my space. Take the train and discover me.",
+  "presentation": "My name is Adrián, I'm a web and multiplatform developer. Since I was a kid, I've loved creating. And trains. My grandpa took me to the train station of the town called Torredembarra to see the trains. This web is a tribute to him and to the child that has evolved until today.",
+  "scroll-down": "Scroll to continue",
+  "who-am-i": "Who am I",
+  "experience": "Experience",
+  "projects": "Projects",
+  "skills": "Skills",
+  "working-title": "This section is still under development.",
+  "working-text": "Meanwhile, you can visit my GitHub and LinkedIn profile to know more about me."
 }

@@ -1,10 +1,13 @@
+import Content from "@/components/content";
 import Header from "@/components/header";
 
 export default function Home() {
   return (
-    <div>
+    <div className="min-h-screen max-h-screen flex flex-col">
       <Header />
-      <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start"></main>
+      <main className="w-screen flex-1 flex overflow-hidden">
+        <Content />
+      </main>
     </div>
   );
 }

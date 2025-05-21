@@ -39,15 +39,15 @@ export default function LanguageSelector() {
         onClick={() => {
           setOpen(!isOpen);
         }}
-        className="w-fit px-3 py-1 border flex gap-2 items-center justify-center border-[#dadada] hover:bg-gray-100 transition rounded-lg cursor-pointer"
+        className="w-fit px-3 py-1 min-h-9 border flex gap-2 items-center justify-center border-[#dadada] hover:bg-gray-100 transition rounded-lg cursor-pointer"
       >
         <div className="rounded-full w-5 h-5 relative overflow-hidden border border-[#B2B2B2]">
           <Image alt={currentLang} src={`/${currentLang}.png`} fill className="object-cover" />
         </div>
-        {languages[currentLang as keyof typeof languages]}
+        <p className="hidden md:block">{languages[currentLang as keyof typeof languages]}</p>
       </div>
       {isOpen && (
-        <div className="absolute z-10 mt-2 w-32 bg-white border border-[#dadada] rounded-lg shadow">
+        <div className="absolute z-10 mt-2 w-32 bg-background border border-[#dadada] rounded-lg shadow">
           {Object.entries(languages).map(([code, name]) => (
             <button
               key={code}
@@ -61,7 +61,7 @@ export default function LanguageSelector() {
               <div className="rounded-full w-5 h-5 relative overflow-hidden border border-[#B2B2B2]">
                 <Image alt={code} src={`/${code}.png`} fill className="object-cover" />
               </div>
-              {name}
+              <p>{name}</p>
             </button>
           ))}
         </div>

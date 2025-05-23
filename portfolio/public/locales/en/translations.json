@@ -1,15 +1,17 @@
 {
   "download-cv": "Download CV",
   "hi": "Hi!",
-  "welcome": "Welcome to my space. Take the train and discover me.",
-  "presentation": "My name is Adrián, I'm a web and multiplatform developer. Since I was a kid, I've loved creating. And trains. My grandpa took me to the train station of the town called Torredembarra to see the trains. This web is a tribute to him and to the child that has evolved until today.",
-  "scroll-down": "Scroll to continue",
+  "welcome": "Welcome to my space. Hop on the train and discover who I am.",
+  "presentation": "I'm Adrián, a web and multiplatform developer. Ever since I was a child, I've loved building things—and trains. My grandpa used to take me to the train station in a town called Torredembarra to watch the trains go by. This website is a tribute to him, and to the kid I once was who has grown into who I am today.",
+  "scroll-down": "Scroll down to continue",
   "who-am-i": "Who am I",
   "experience": "Experience",
   "projects": "Projects",
   "skills": "Skills",
-  "working-title": "This section is still under development.",
-  "working-text": "Meanwhile, you can visit my GitHub and LinkedIn profile to know more about me.",
-  "whoami-text-1": "My name is Adrián Casado. I’m a web and cross-platform developer with a strong interest in front-end and UI/UX design, though I’m also open to other areas. I didn’t always know I wanted to become a developer, but once I found out, it became crystal clear.",
-  "whoami-text-2": "My passion for the world of transport goes back to my childhood, when my grandfather used to take me during summer holidays to the train station in Torredembarra (Tarragona) to watch the trains from the bridge. Those afternoons sparked an interest in railways that has since evolved into a passion for sustainable transport in general."
+  "working-title": "This section is still under construction.",
+  "working-text": "In the meantime, feel free to check out my GitHub and LinkedIn profiles to learn more about me.",
+  "whoami-text-1": "I'm Adrián Casado, a web and cross-platform developer with a passion for front-end and UI/UX design—though I'm always open to exploring other areas. I didn't always know I wanted to be a developer, but once I discovered it, everything clicked.",
+  "whoami-text-2": "My passion for transport goes back to my childhood, when my grandfather would take me during the summer to the train station in Torredembarra (Tarragona) to watch the trains from a bridge. Those afternoons sparked a fascination with railways that grew into a love for sustainable transport as a whole.",
+  "3dprint-desc": "A web app for managing 3D print files, created during my Erasmus stay in Viborg, Denmark, for Mercantec.",
+  "buschecker-desc": "A website that provides real-time public transport information in Barcelona, using official company APIs."
 }

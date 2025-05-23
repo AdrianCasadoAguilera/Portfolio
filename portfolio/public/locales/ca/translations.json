@@ -11,5 +11,7 @@
   "working-title": "Aquesta secció encara està en desenvolupament.",
   "working-text": "Mentres tant, pots visitar el meu GitHub i LinkedIn per conèixer més sobre mi.",
   "whoami-text-1": "El meu nom és Adrián Casado. Soc un desenvolupador web i multiplataforma amb especial interès pel front-end i el desenvolupament UI/UX, però obert també a altres camps. No sempre he tingut clar que em volia dedicar al desenvolupament, però des de que ho sé, ho tinc molt clar.",
-  "whoami-text-2": "La meva passió pel mon del transport sí que em ve de petit, quan el meu avi, a les vacances d’estiu, em portava a l’estació de Torredembarra (a Tarragona) a veure els trens des del pont. Aquelles tardes em van provocar desenvolupar una afició pel ferrocarril que més endavant s’ha desenvolupat en passió pel transport sostenible en general."
+  "whoami-text-2": "La meva passió pel mon del transport sí que em ve de petit, quan el meu avi, a les vacances d’estiu, em portava a l’estació de Torredembarra (a Tarragona) a veure els trens des del pont. Aquelles tardes em van provocar desenvolupar una afició pel ferrocarril que més endavant s’ha desenvolupat en passió pel transport sostenible en general.",
+  "3dprint-desc": "Aplicació web creada per la gestió d’arxius d’impresió 3D durant l’estada d’Erasmus a Viborg, Dinamarca, per Mercantec.",
+  "buschecker-desc": "Pàgina web per veure el temps d'espera per al transport públic de Barcelona a temps real. Amb APIs oficials de les empreses de transport de Barcelona."
 }

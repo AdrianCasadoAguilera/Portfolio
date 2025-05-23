@@ -3,6 +3,7 @@ import Section from "./section";
 import { Train } from "lucide-react";
 import Working from "./working";
 import WhoAmI from "./whoami/who-am-i";
+import Projects from "./projects/projects";
 
 export default function Content() {
   return (
@@ -26,7 +27,7 @@ export default function Content() {
             <Working />
           </Section>
           <Section title="projects">
-            <Working />
+            <Projects />
           </Section>
         </div>
         <Section title="skills">

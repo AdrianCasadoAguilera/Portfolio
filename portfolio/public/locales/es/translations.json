@@ -1,6 +1,6 @@
 {
   "download-cv": "Descargar CV",
-  "hi": "Hola!",
+  "hi": "¡Hola!",
   "welcome": "Bienvenido/a a mi espacio. Coge el tren y descúbreme.",
   "presentation": "Soy Adrián, desarrollador web y multiplataforma. Desde pequeño, me ha gustado crear. Y los trenes. Mi abuelo me llevaba de pequeño a la estación de Torredembarra a ver los trenes. Esta web es un homenaje a él y al niño que ha evolucionado hasta llegar aquí.",
   "scroll-down": "Scroll para continuar",
@@ -11,5 +11,7 @@
   "working-title": "Esta sección está aún en desarrollo.",
   "working-text": "Mientras tanto, puedes visitar mi GitHub y LinkedIn para conocer más sobre mí.",
   "whoami-text-1": "Mi nombre es Adrián Casado. Soy un desarrollador web y multiplataforma con especial interés por el front-end y el desarrollo UI/UX, aunque también abierto a otros ámbitos. No siempre tuve claro que quería dedicarme al desarrollo, pero desde que lo descubrí, lo tengo clarísimo.",
-  "whoami-text-2": "Mi pasión por el mundo del transporte sí que viene de pequeño, cuando mi abuelo, durante las vacaciones de verano, me llevaba a la estación de Torredembarra (en Tarragona) a ver los trenes desde el puente. Aquellas tardes despertaron en mí una afición por el ferrocarril que, con el tiempo, se ha convertido en una pasión por el transporte sostenible en general."
+  "whoami-text-2": "Mi pasión por el mundo del transporte sí que viene de pequeño, cuando mi abuelo, durante las vacaciones de verano, me llevaba a la estación de Torredembarra (en Tarragona) a ver los trenes desde el puente. Aquellas tardes despertaron en mí una afición por el ferrocarril que, con el tiempo, se ha convertido en una pasión por el transporte sostenible en general.",
+  "3dprint-desc": "Aplicación web creada por la gestión de archivos de impresión 3D durante la estancia Erasmus en Viborg, Dinamarca, para Mercantec. ",
+  "buschecker-desc": "Web para consultar el tiempo de espera para el transporte público de Barcelona a tiempo real. Con APIs oficiales de las empresas de transporte de Barcelona."
 }

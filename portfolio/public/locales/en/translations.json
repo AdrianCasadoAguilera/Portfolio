@@ -13,5 +13,11 @@
   "whoami-text-1": "I'm Adrián Casado, a web and cross-platform developer with a passion for front-end and UI/UX design—though I'm always open to exploring other areas. I didn't always know I wanted to be a developer, but once I discovered it, everything clicked.",
   "whoami-text-2": "My passion for transport goes back to my childhood, when my grandfather would take me during the summer to the train station in Torredembarra (Tarragona) to watch the trains from a bridge. Those afternoons sparked a fascination with railways that grew into a love for sustainable transport as a whole.",
   "3dprint-desc": "A web app for managing 3D print files, created during my Erasmus stay in Viborg, Denmark, for Mercantec.",
-  "buschecker-desc": "A website that provides real-time public transport information in Barcelona, using official company APIs."
+  "buschecker-desc": "A website that provides real-time public transport information in Barcelona, using official company APIs.",
+  "mercantec-desc": "Erasmus experience in Viborg, Denmark. During the two-month stay, we formed a development team to build 3D Printer Archive, a 3D printing project management system with a React frontend using Vite and a PHP backend running on an Apache server. The application was implemented from scratch by a fully junior team, and it was my first real experience with programming.",
+  "mecalux-desc": "Internship in DUAL training program. Web application development for the testing laboratory at Mecalux, where we migrated systems from Excel-based workflows to more robust solutions. My role focused on creating the UI/UX interface, from the design in Figma to the final implementation. I was part of a team of highly skilled professionals and engineers. It was my first experience working in a real company environment.",
+  "reference-letter": "Reference Letter",
+  "repo": "Repository",
+  "webpage": "Webpage",
+  "mecalux-web": "Mecalux"
 }

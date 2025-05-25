@@ -4,6 +4,7 @@ import { Train } from "lucide-react";
 import Working from "./working";
 import WhoAmI from "./whoami/who-am-i";
 import Projects from "./projects/projects";
+import Experience from "./experience/experience";
 
 export default function Content() {
   return (
@@ -24,7 +25,7 @@ export default function Content() {
             <WhoAmI />
           </Section>
           <Section title="experience">
-            <Working />
+            <Experience />
           </Section>
           <Section title="projects">
             <Projects />

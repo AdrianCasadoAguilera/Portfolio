@@ -44,5 +44,5 @@ body {
   height: 0;
   border-left: 15px solid transparent;
   border-right: 15px solid transparent;
-  border-bottom: 10px solid white;
+  border-bottom: 10px solid var(--background);
 }

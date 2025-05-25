@@ -13,5 +13,11 @@
   "whoami-text-1": "Mi nombre es Adrián Casado. Soy un desarrollador web y multiplataforma con especial interés por el front-end y el desarrollo UI/UX, aunque también abierto a otros ámbitos. No siempre tuve claro que quería dedicarme al desarrollo, pero desde que lo descubrí, lo tengo clarísimo.",
   "whoami-text-2": "Mi pasión por el mundo del transporte sí que viene de pequeño, cuando mi abuelo, durante las vacaciones de verano, me llevaba a la estación de Torredembarra (en Tarragona) a ver los trenes desde el puente. Aquellas tardes despertaron en mí una afición por el ferrocarril que, con el tiempo, se ha convertido en una pasión por el transporte sostenible en general.",
   "3dprint-desc": "Aplicación web creada por la gestión de archivos de impresión 3D durante la estancia Erasmus en Viborg, Dinamarca, para Mercantec. ",
-  "buschecker-desc": "Web para consultar el tiempo de espera para el transporte público de Barcelona a tiempo real. Con APIs oficiales de las empresas de transporte de Barcelona."
+  "buschecker-desc": "Web para consultar el tiempo de espera para el transporte público de Barcelona a tiempo real. Con APIs oficiales de las empresas de transporte de Barcelona.",
+  "mercantec-desc": "Experiencia Erasmus en Viborg, Dinamarca. Durante los dos meses de estancia formamos un equipo de desarrollo para crear 3D Printer Archive, un sistema de gestión de proyectos de impresión 3D con un frontend en React con Vite y un backend en un servidor Apache con PHP. La implementación de la aplicación fue desde cero, con un equipo 100% junior, y fue mi primer contacto real con la programación.",
+  "mecalux-desc": "Estancia de prácticas en modalidad DUAL. Desarrollo de aplicaciones web para el laboratorio de pruebas de Mecalux, con las que se ha realizado la migración de sistemas basados en Excel a soluciones más robustas. Mi función fue la creación de la interfaz UI/UX, desde el diseño en Figma hasta la implementación final. Formé parte de un equipo de profesionales e ingenieros altamente cualificados. Ha sido mi primera experiencia en una empresa real.",
+  "reference-letter": "Carta de recomendación",
+  "repo": "Repositorio",
+  "webpage": "Página Web",
+  "mecalux-web": "Mecalux"
 }

@@ -56,7 +56,7 @@ export default function Experience() {
               </div>
               <p className="text-sm lg:text-base lg:text-justify">{t(experience.description)}</p>
               {experience.buttons && (
-                <div className="flex gap-1 flex-wrap">
+                <div className="flex gap-1 flex-wrap" onClick={(e) => e.stopPropagation()}>
                   {experience.buttons.map((button, i) => {
                     const Icon = button.icon;
                     return (

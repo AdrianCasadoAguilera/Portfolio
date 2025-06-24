@@ -6,7 +6,7 @@ import Button from "./button";
 import { FileIcon } from "@radix-ui/react-icons";
 
 export default function Header() {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
 
   return (
     <header className="w-full min-h-20 flex shadow justify-between items-center px-10 dark:shadow-[rgba(255,255,255,0.2)]">
@@ -20,7 +20,10 @@ export default function Header() {
         <LanguageSelector />
         <Button
           onClick={() => {
-            console.log("Button pressed");
+            const a = document.createElement("a");
+            a.href = "/docs/CV-AdrianCasado-" + i18n.language.toUpperCase() + ".pdf";
+            a.target = "_blank";
+            a.click();
           }}
           icon={<FileIcon className="w-5 h-5" />}
           text={t("download-cv")}

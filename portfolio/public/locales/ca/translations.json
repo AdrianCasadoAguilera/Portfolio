@@ -19,5 +19,8 @@
   "reference-letter": "Carta de recomanació",
   "repo": "Repositori",
   "webpage": "Pàgina Web",
-  "mecalux-web": "Mecalux"
+  "mecalux-web": "Mecalux",
+  "copyright": "Tots els drets reservats",
+  "made-with-1": "Fet amb",
+  "made-with-2": "amb React, Next.js i TailwindCSS"
 }

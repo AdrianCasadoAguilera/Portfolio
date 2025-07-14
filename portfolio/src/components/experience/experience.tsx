@@ -19,14 +19,13 @@ export default function Experience() {
         return (
           <li
             key={index}
-            className="flex flex-col gap-1 xl:cursor-auto cursor-pointer"
+            className="flex flex-col gap-1 cursor-pointer"
             onClick={() => setExpandedIndex(isExpanded ? null : index)}
           >
             <div className="flex gap-2 items-center">
               <ChevronRight
-                className={`w-[1rem] h-[1rem] ${isExpanded && "rotate-90"} transition xl:hidden`}
+                className={`w-[1rem] h-[1rem] ${isExpanded && "rotate-90"} transition`}
               />
-              <div className="w-[0.6rem] h-[0.6rem] bg-foreground rounded-full hidden xl:block mr-[0.4rem]" />
               <div className="flex gap-1 items-end">
                 <h3 className="font-bold text-xl lg:text-2xl">{experience.title}</h3>
                 <h5 className="text-xs lg:text-sm mb-[0.2rem] lg:mb-[0.1rem]">
@@ -38,7 +37,7 @@ export default function Experience() {
               {experience.startDate} - {experience.finishDate}
             </p>
             <div
-              className={`ml-6 flex-col flex gap-2 xl:max-h-fit transition-all duration-300 ease-in-out overflow-hidden ${
+              className={`ml-6 flex-col flex gap-2 transition-all duration-300 ease-in-out overflow-hidden ${
                 isExpanded ? "max-h-96" : "max-h-0"
               }`}
             >

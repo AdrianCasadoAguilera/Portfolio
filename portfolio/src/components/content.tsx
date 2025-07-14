@@ -5,6 +5,7 @@ import Working from "./working";
 import WhoAmI from "./whoami/who-am-i";
 import Projects from "./projects/projects";
 import Experience from "./experience/experience";
+import Footer from "./footer";
 
 export default function Content() {
   return (
@@ -36,7 +37,7 @@ export default function Content() {
         </Section>
       </div>
 
-      <footer className="h-52 snap-end bg-black"></footer>
+      <Footer />
     </div>
   );
 }

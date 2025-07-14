@@ -19,5 +19,8 @@
   "reference-letter": "Reference Letter",
   "repo": "Repository",
   "webpage": "Webpage",
-  "mecalux-web": "Mecalux"
+  "mecalux-web": "Mecalux",
+  "copyright": "All rights reserved",
+  "made-with-1": "Made with",
+  "made-with-2": "using React, Next.js and TailwindCSS"
 }
